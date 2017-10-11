@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	metadata-complete="true" version="3.0">
+<!-- 	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list> -->
+	
+	<servlet>
+		<description></description>
+		<display-name>CustomerInsertServlet</display-name>
+		<servlet-name>CustomerInsertServlet</servlet-name>
+		<servlet-class>com.controller.CustomerInsertServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>LoginController</display-name>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>com.controller.LoginController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>SuggestionInsertServlet</display-name>
+		<servlet-name>SuggestionInsertServlet</servlet-name>
+		<servlet-class>com.controller.SuggestionInsertServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>CustomerUpdateServlet</display-name>
+		<servlet-name>CustomerUpdateServlet</servlet-name>
+		<servlet-class>com.controller.CustomerUpdateServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>ProductEditServlet</display-name>
+		<servlet-name>ProductEditServlet</servlet-name>
+		<servlet-class>com.controller.ProductEditServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>ProductInsertServlet</display-name>
+		<servlet-name>ProductInsertServlet</servlet-name>
+		<servlet-class>com.controller.ProductInsertServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>AjaxServlet</display-name>
+		<servlet-name>AjaxServlet</servlet-name>
+		<servlet-class>com.controller.AjaxServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>ProductUpdateServlet</display-name>
+		<servlet-name>ProductUpdateServlet</servlet-name>
+		<servlet-class>com.controller.ProductUpdateServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>LogControllerServlet</display-name>
+		<servlet-name>LogControllerServlet</servlet-name>
+		<servlet-class>com.controller.LogControllerServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>AdminSendFeedBack</display-name>
+		<servlet-name>AdminSendFeedBack</servlet-name>
+		<servlet-class>com.controller.AdminSendFeedBack</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>UserUpdateServlet</display-name>
+		<servlet-name>UserUpdateServlet</servlet-name>
+		<servlet-class>com.controller.UserUpdateServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>LogoutServlet</display-name>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.controller.LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>BookDetailsServlet</display-name>
+		<servlet-name>BookDetailsServlet</servlet-name>
+		<servlet-class>com.controller.BookDetailsServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>UserForgotPasswordServlet</display-name>
+		<servlet-name>UserForgotPasswordServlet</servlet-name>
+		<servlet-class>com.controller.UserForgotPasswordServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>ResetPasswordServlet</display-name>
+		<servlet-name>ResetPasswordServlet</servlet-name>
+		<servlet-class>com.controller.ResetPasswordServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>OrderInsertServlet</display-name>
+		<servlet-name>OrderInsertServlet</servlet-name>
+		<servlet-class>com.controller.OrderInsertServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description></description>
+		<display-name>UserChangePassword</display-name>
+		<servlet-name>UserChangePassword</servlet-name>
+		<servlet-class>com.controller.UserChangePassword</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CustomerInsertServlet</servlet-name>
+		<url-pattern>/CustomerInsertServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/LoginController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SuggestionInsertServlet</servlet-name>
+		<url-pattern>/SuggestionInsertServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CustomerUpdateServlet</servlet-name>
+		<url-pattern>/CustomerUpdateServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductEditServlet</servlet-name>
+		<url-pattern>/ProductEditServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductInsertServlet</servlet-name>
+		<url-pattern>/ProductInsertServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AjaxServlet</servlet-name>
+		<url-pattern>/AjaxServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductUpdateServlet</servlet-name>
+		<url-pattern>/ProductUpdateServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogControllerServlet</servlet-name>
+		<url-pattern>/LogControllerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminSendFeedBack</servlet-name>
+		<url-pattern>/AdminSendFeedBack</url-pattern>
+	</servlet-mapping>
+	<!-- <servlet-mapping> <servlet-name>UserEditServlet</servlet-name> <url-pattern>/UserEditServlet</url-pattern> 
+		</servlet-mapping> -->
+	<servlet-mapping>
+		<servlet-name>UserUpdateServlet</servlet-name>
+		<url-pattern>/UserUpdateServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BookDetailsServlet</servlet-name>
+		<url-pattern>/BookDetailsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserForgotPasswordServlet</servlet-name>
+		<url-pattern>/UserForgotPasswordServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ResetPasswordServlet</servlet-name>
+		<url-pattern>/ResetPasswordServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderInsertServlet</servlet-name>
+		<url-pattern>/OrderInsertServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserChangePassword</servlet-name>
+		<url-pattern>/UserChangePassword</url-pattern>
+	</servlet-mapping>
+</web-app> 
+
